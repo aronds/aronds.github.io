@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # html-freebie-triple-p
 Website Template Name: Triple P (Pixel Perfect Portfolio)
 
@@ -12,3 +13,8 @@ Version: 2
 Author: Arom
 Author URI: ""
 Keywords: HTML, CSS, Bootstrap, Responsive, Javascript, jQuery, Parallax, Portfolio, CV, Resume
+=======
+# aronds.github.io
+My personal site: "Data Hunter's Den" TURNING YOUR DATA INTO INSIGHT
+[https://aronds.github.io]
+>>>>>>> c38eea75d886446501a8b4d8e1ca493436bda5bc
