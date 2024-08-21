@@ -1,0 +1,91 @@
+/* Reset de estilos */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Un color de fondo claro */
+
+    background-image: url('https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen mientras se desplaza la página */
+    opacity: 1.0; /* Controla la transparencia de la imagen */
+
+}
+/* https://images.pexels.com/photos/338936/pexels-photo-338936.jpeg*/
+
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para el contenido */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 20px; /* Margen externo */
+}
+
+
+
+
+
+/* Estilos generales para las secciones principales */
+header, section, footer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para el encabezado */
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#welcome-section {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #3498db;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Estilo para los botones */
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9;
+}

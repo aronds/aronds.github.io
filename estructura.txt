@@ -52,7 +52,7 @@ ARONDS.GITHUB.IO-MAIN
 		- contact_me.js
 		- jqBootstrapValidation.js
 		- jquery.easing.min.js
-		-jquery.min.js
+		-jquery.min.js	
 	- index.html
 	- LICENCE.txt
 	- legal.html

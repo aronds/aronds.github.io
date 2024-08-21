@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Sidebar y Contenido HTML</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Agrega tus estilos personalizados aquí -->
+</head>
+<body>
+
+<div class="container">
+    <!-- Sidebar / Deliverables / Que necesito mostrar? -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="#main">Main</a></li>
+            <li><a href="#eda">EDA</a></li>
+            <li><a href="#monitoring">Monitoring Reports</a></li>
+            <li><a href="#performance">Performance Measures</a></li>
+            <li><a href="#predict">Predict</a></li>
+        </ul>
+    </div>
+    <!-- Contenido -->
+    <div class="content">
+        <!-- main -->
+        <div id="main" class="content-section">
+            <!-- Aquí se incrusta el contenido del notebook -->
+            <object type="text/html" data="main_project_1.html" style="width:100%; height:100%;"></object>
+        </div>
+        <!-- EDA -->
+        <div id="eda" class="content-section">
+            <!-- Aquí se incrusta el contenido del notebook -->
+            <object type="text/html" data="supermarket_salesCopy.html" style="width:100%; height:100%;"></object>
+        </div>
+        <!-- monitoring -->
+        <div id="monitoring" class="content-section">
+            <!-- Aquí se incrusta el contenido del notebook -->
+            <object type="text/html" data="supermarket_salesCopy.html" style="width:100%; height:100%;"></object>
+        </div>
+        <!-- performance -->
+        <div id="performance" class="content-section">
+            <!-- Aquí se incrusta el contenido del notebook -->
+            <object type="text/html" data="supermarket_salesCopy.html" style="width:100%; height:100%;"></object>
+        </div>
+        <!-- predict -->
+        <div id="predict" class="content-section">
+            <!-- Aquí se incrusta el contenido del notebook -->
+            <object type="text/html" data="supermarket_salesCopy.html" style="width:100%; height:100%;"></object>
+        </div>
+
+        <div id="eda" class="content-section">
+            <!-- Aquí se incrusta el contenido del notebook -->
+            <object type="text/html" data="supermarket_salesCopy.html" style="width:100%; height:100%;"></object>
+        </div>
+
+    </div>
+    
+</div>
+<script src="script.js"></script>
+</body>
+</html>

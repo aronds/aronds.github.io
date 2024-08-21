@@ -1,0 +1,23 @@
+.github-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .github-link:hover {
+    background-color: #ff5722;
+  }
+
+.project-title {
+    margin-top: 10px;
+  }
+
+.project-image {
+    height: 300px; /* Ajusta el valor según tus necesidades */
+    width: 300px;
+    object-fit: cover;
+  }
