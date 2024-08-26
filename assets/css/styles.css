@@ -28,7 +28,7 @@ header.masthead {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* Asegura que el video cubra todo el contenedor sin distorsionarse */
     z-index: -1;
     opacity: 0.95;
 }
@@ -41,7 +41,7 @@ header.masthead {
     align-items: center;
     position: absolute;
     z-index: 1;
-    height: 100vh;
+    height: 100%; /* Esto permite que el contenido ajuste su tamaño según la pantalla */   
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -50,10 +50,13 @@ header.masthead {
 
 /* Estilos del texto dentro del contenedor */
 .intro-text {
+    width: 100%; /* Asegura que el texto ocupe todo el ancho disponible */
     border-radius: 10px;
     font-style: italic;
     font-family: 'Hind', Arial, sans-serif;
     line-height: 22px;
+    /*max-width: 600px; /* Limita el ancho máximo en pantallas grandes */
+    /*margin: 0 auto;*/
 }
 
 /* Encabezado dentro del texto de introducción */
@@ -61,8 +64,8 @@ header.masthead {
     font-size: 60px;
     font-weight: 700;
     line-height: 50px;
-    margin: 30px;
-    margin-bottom: 100px;
+    margin: 30px; /* Reducido de 80px a 30px */
+    margin-bottom: 100px; /* Incrementar el valor para subir el texto */
     font-family: "Montserrat", sans-serif;
     text-shadow: 2px 2px 4px rgba(245, 5, 5, 0.7); /* Podría reutilizarse */
 }
@@ -88,8 +91,25 @@ header.masthead {
     height: auto;
     margin: 20px 0;
 }
+.btn-primary {
+    margin-top: 40px; /* Aumenta la separación del botón hacia abajo */
+    background-color: #09bd96; /* Ajusta el color de fondo del botón según tu diseño */
+    border-color: #09bd96; /* Establece el color del borde para que coincida con el fondo */
+    text-shadow: 2px 2px 4px rgba(245, 5, 5, 0.7); /* Sombra del texto: 2px a la derecha, 2px hacia abajo, 4px de difuminado, y un color rojo con transparencia */
+    color: #fff; /* Define el color del texto en blanco */
+    padding: 10px 20px; /* Establece un padding de 10px en la parte superior/inferior y 20px a los lados */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    border-radius: 5px; /* Aplica bordes redondeados con un radio de 5px */
+}
+.btn {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
 
-
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+}
 p {
     line-height: 1.75;
     margin-bottom: 20px;
@@ -135,28 +155,6 @@ button {
     transition: background-color 0.3s ease-in-out;
 }
 
-.btn {
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 700;
-}
-
-.btn-xl {
-    font-size: 18px;
-    padding: 20px 40px;
-}
-
-.btn-primary {
-    margin-top: 40px; /* Aumenta la separación del botón hacia abajo */
-    background-color: #09bd96; /* Ajusta el color de fondo del botón según tu diseño */
-    border-color: #09bd96; /* Establece el color del borde para que coincida con el fondo */
-    text-shadow: 2px 2px 4px rgba(245, 5, 5, 0.7); /* Sombra del texto: 2px a la derecha, 2px hacia abajo, 4px de difuminado, y un color rojo con transparencia */
-    color: #fff; /* Define el color del texto en blanco */
-    padding: 10px 20px; /* Establece un padding de 10px en la parte superior/inferior y 20px a los lados */
-    text-decoration: none; /* Elimina el subrayado del texto */
-    border-radius: 5px; /* Aplica bordes redondeados con un radio de 5px */
-}
-
-
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
@@ -188,6 +186,35 @@ button {
     text-transform: none;
     font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+/* Estilos generales para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container-intro-text {
+        padding: 10px; /* Reduce el padding para pantallas pequeñas */
+        height: auto; /* Permite que la altura sea dinámica en lugar de fija */
+    }
+    
+    .intro-heading p {
+        font-size: 40px; /* Reduce el tamaño del título */
+        line-height: 40px;
+        margin: 20px 0; /* Ajusta el margen */
+    }
+
+    .intro-in p {
+        font-size: 24px; /* Reduce el tamaño del subtítulo */
+        margin: 10px 0; /* Ajusta el margen */
+    }
+
+    .btn-primary {
+        font-size: 16px; /* Ajusta el tamaño del texto del botón */
+        padding: 10px 20px; /* Ajusta el padding del botón */
+    }
+
+    .intro-logo img {
+        height: 100px; /* Reduce el tamaño del logo */
+        width: auto;
+    }
+}
+
 
 @media (min-width: 768px) {
     section {
