@@ -32,9 +32,8 @@ header.masthead {
     opacity: 0.95;
 }
 
-/* Contenedor de texto en el header */
-/* Corregido*/
-.container-intro-tex {
+/* Estilos del contenedor principal */
+.container-intro-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,17 +42,16 @@ header.masthead {
     z-index: 1;
     height: 100vh;
     width: 100%;
-    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centrar contenido dentro del contenedor */
+    color: #fff; /* Color aplicado a todo el contenido */
 }
 
-/* Texto de introducción */
-header.masthead .intro-text {
-    text-align: center;
-    padding: 20px;
+/* Estilos del texto dentro del contenedor */
+.intro-text {
     border-radius: 10px;
     font-style: italic;
     font-family: 'Hind', Arial, sans-serif;
-    color: #fff;
     line-height: 22px;
 }
 
