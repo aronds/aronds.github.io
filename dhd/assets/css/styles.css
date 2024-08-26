@@ -6,17 +6,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa; /* Un color de fondo claro */
-
     background-image: url('https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg'); /* Ruta de la imagen */
     background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-attachment: fixed; /* Fija la imagen mientras se desplaza la página */
     opacity: 1.0; /* Controla la transparencia de la imagen */
-
 }
 /* https://images.pexels.com/photos/338936/pexels-photo-338936.jpeg*/
-
 
 .content {
     background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para el contenido */
@@ -24,10 +21,6 @@ body {
     border-radius: 8px; /* Bordes redondeados */
     margin: 20px; /* Margen externo */
 }
-
-
-
-
 
 /* Estilos generales para las secciones principales */
 header, section, footer {

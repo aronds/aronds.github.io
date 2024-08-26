@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+    --turquoise:#00ffff;
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -358,7 +359,7 @@ progress {
 }
 
 output {
-    disp    lay: inline-block
+    display: inline-block
 }
 
 summary {
@@ -574,14 +575,6 @@ pre code {
 .pre-scrollable {
     max-height: 340px;
     overflow-y: scroll
-}
-
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
 }
 
 @media (min-width:576px) {
