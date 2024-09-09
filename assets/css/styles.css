@@ -58,20 +58,20 @@ header.masthead {
 
 /* Encabezado dentro del texto de introducción */
 .intro-heading p {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 50px;
-    margin: 30px; /* Reducido de 80px a 30px */
-    margin-bottom: 100px; /* Incrementar el valor para subir el texto */
+    line-height: 40px;
+    margin: 20px; /* Reducido de 80px a 30px */
+    margin-bottom: 20px; /* Incrementar el valor para subir el texto */
     font-family: "Montserrat", sans-serif;
     text-shadow: 2px 2px 4px rgba(245, 5, 5, 0.7); /* Podría reutilizarse */
 }
 
 /* Subtítulo o lead-in */
 .intro-in p {
-    font-size: 40px;
-    min-height: 50px;
-    margin: 20px 0 40px;
+    font-size: 30px;
+    min-height: 20px; /* margen inferior de "welcome to my studio"*/
+    margin: 10px 10px; /**/
     font-family: 'Hind', Arial, sans-serif;
     font-weight: bold;
     color: #fff; /* Este ya puede ser heredado de .container-intro-text */
@@ -86,10 +86,10 @@ header.masthead {
 .intro-logo {
     max-width: 100%;
     height: auto;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .btn-primary {
-    margin-top: 40px; /* Aumenta la separación del botón hacia abajo */
+    margin-top: 10px; /* Aumenta la separación del botón hacia abajo */
     background-color: #09bd96; /* Ajusta el color de fondo del botón según tu diseño */
     border-color: #09bd96; /* Establece el color del borde para que coincida con el fondo */
     text-shadow: 2px 2px 4px rgba(245, 5, 5, 0.7); /* Sombra del texto: 2px a la derecha, 2px hacia abajo, 4px de difuminado, y un color rojo con transparencia */
@@ -325,7 +325,7 @@ img::-moz-selection {
         padding-bottom: 200px;
     }
 
-    header.masthead .intro-text .intro-lead-in {
+    header.masthead .intro-text .intro-in {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
