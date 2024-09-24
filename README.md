@@ -1,12 +1,11 @@
 
 # aronds.github.io
 
-Welcome to **Data Hunter's Den** – Turning Your Data into Insight
+Welcome to my Studio! – Turning Your Data into Insight
 
 ## Overview
 This repository hosts the source code for my personal website, [Data Hunter's Den](https://aronds.github.io), where I explore the intersection of data science, analysis, and engineering with a unique, medieval-inspired design.
 
-**Data Hunter's Den** is more than just a personal site; it's a sanctuary for those who seek to transform raw data into meaningful insights. With a focus on Data Science, Data Analysis, Data Engineering, Machine Learning, Business Intelligence, and Artificial Intelligence, this site is a hub for projects, tools, and knowledge in the field.
 
 ## Sections
 The site is divided into several key sections:
@@ -49,7 +48,6 @@ bundle install
 ```bash
 bundle exec jekyll serve
 ```
-
 Open your browser and visit http://localhost:4000.
 
 ## Contributing

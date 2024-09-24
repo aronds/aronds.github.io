@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página en Mantenimiento</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .maintenance-container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        h1 {
+            color: #ff6f61;
+            font-size: 36px;
+        }
+        p {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .loader {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #ff6f61;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 1.5s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .btn-refresh {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn-refresh:hover {
+            background-color: #ff4c3b;
+        }
+    </style>
+</head>
+<body>
+    <div class="maintenance-container">
+        <h1>We are fine-tuning the details</h1>
+        <p>Our page is under maintenance to improve your experience. We will be back shortly.</p>
+        <div class="loader"></div>
+        <p>Thank you for your patience. We are almost ready!</p>
+        <a href="javascript:location.reload()" class="btn-refresh">Update</a>
+    </div>
+</body>
+</html>

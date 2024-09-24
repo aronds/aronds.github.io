@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- SEO Meta Tags -->
+  <meta name="description"
     content="I'm a Data Alchemist, and this is my Data Hunter's Den—where I explore, analyze, and transform data to uncover valuable insights. Welcome Data Wranglers !!">
-    <meta name="author" content="Nelson Arom Antinao Albornoz">
-    <link rel="canonical" href="http://localhost:4000/">
-    <!-- FontAwesome (usar solo uno) -->
-    <script src="https://kit.fontawesome.com/52c6de29b5.js" crossorigin="anonymous"></script>
-    <!--Eliminar -->
-    <!--
+  <meta name="author" content="Nelson Arom Antinao Albornoz">
+  <link rel="canonical" href="http://localhost:4000/">
+
+  <!-- Open Graph Tags for better social media sharing -->
+  <meta property="og:title" content="Data Hunter's Den: Arom Antinao's Data Science Hub">
+  <meta property="og:description"
+    content="Explore Machine Learning, AI, and Data Science insights in this blog. Join the journey of uncovering hidden patterns in data!">
+  <meta property="og:url" content="http://localhost:4000/">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+
+  <!-- FontAwesome (usar solo uno) -->
+  <script src="https://kit.fontawesome.com/52c6de29b5.js" crossorigin="anonymous"></script>
+  <!--Eliminar -->
+  <!--
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha384-DfXdzqyOQxwEfAD/o/3KMW4xmdwWq8jPbZYw9mcwM9ImRu3Snj2N8Ai8n2Bq5qwe" crossorigin="anonymous">
     -->
-    <title>Arom Antinao</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">    
-    <!-- Eliminar -->
-    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet" /> -->
-    
-    <!-- Custom fonts -->
-    <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <title>Jager | Data Analytics Studio</title>
+  <!-- Bootstrap CSS from CDN for better performance -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Eliminar -->
+  <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet" /> -->
+  <!-- Custom fonts -->
+  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- Custom styles for this theme -->
+  <link href="assets/css/styles.css" rel="stylesheet" />
+  <!--estilo del link hacia github, desde el modal-->
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
 
-    <!-- Custom styles for this theme -->
-    <link href="assets/css/styles.css" rel="stylesheet" />  
-    <!--estilo del link hacia github, desde el modal-->
-    <link rel="stylesheet" href="assets/css/custom.css">
-  </head>
-  <body id="page-top">
+<body id="page-top">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
         Menu
@@ -48,29 +61,11 @@
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#blog">Blog</a></li>
+          <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">About</a></li>  -->
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">About</a></li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#" data-toggle="modal" data-target="#confirmationModal">Data
               Hunter's Den</a>
-          </li>
-          <!-- Dropdown for Other Sites -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle js-scroll-trigger" href="#" id="navbarDropdown" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Other Sites
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="https://datasetsearch.research.google.com/">Google Dataset Search</a>
-              <a class="dropdown-item" href="https://www.kaggle.com/datasets">Kaggle Datasets</a>
-              <a class="dropdown-item" href="https://www.openml.org/search?type=data&status=active">OpenML Datasets</a>
-              <a class="dropdown-item" href="https://paperswithcode.com/datasets?mod=tabular&page=1">ML Datasets</a>
-              <a class="dropdown-item" href="https://github.com/search">Git-Hub Search</a>
-              <a class="dropdown-item" href="">Site</a>
-              <a class="dropdown-item" href="den.html">Den</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">More Sites</a>
-            </div>
           </li>
         </ul>
       </div>
@@ -79,35 +74,28 @@
   <!-- End Navigation -->
   <!-- Header -->
   <header class="masthead">
-    <video class="video-background" autoplay muted loop>
+    <video class="video-background" autoplay muted loop playsinline>
       <source src="assets/img/header2.mp4" type="video/mp4">
       Tu navegador no soporta el formato de video.
     </video>
-
     <div class="container-intro-text">
       <div class="intro-text">
-
         <div class="intro-heading text-uppercase">
           <p>TURNING YOUR DATA INTO INSIGHTS</p>
         </div>
         <div class="intro-in">
           <p>Welcome to my Studio!</p>
         </div>
-
         <!-- LOGO -->
         <div class="intro-logo">
           <p>
             <img src="assets/img/logo7.png" alt="Arom Antinao" style="height: 200px; width: auto;">
           </p>
         </div>
-
-
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-      
       </div>
     </div>
   </header>
-  
   <!-- End Header -->
   <!-- Services -->
   <section class="page-section" id="services">
@@ -119,7 +107,7 @@
         </div>
       </div>
       <div class="row text-center">
-        <!--       SERVICE 1       -->
+        <!-- SERVICE 1 -->
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -129,11 +117,11 @@
             <p><a href="data_science.html">Data Science</a></p>
           </h4>
           <div class="text-muted">
-            <p>
-              Gain valuable insights from your data with our expertise in data analysis and visualization. </p>
+            <p>Unlock value from your data with scalable solutions. We combine analytics, machine learning, and
+              expertise to deliver insights that drive your business.</p>
           </div>
         </div>
-        <!--       SERVICE 2      -->
+        <!-- SERVICE 2 -->
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -143,11 +131,11 @@
             <p><a href=data_analysis.html> Data analysis</a></p>
           </h4>
           <div class="text-muted">
-            <p> Turn your data into actionable insights with our cutting-edge data analysis services.</p>
+            <p>Uncover patterns and trends in your data. Our expert analysis turns raw data into actionable insights for
+              better strategic decisions.</p>
           </div>
         </div>
-
-        <!--       SERVICE 3       -->
+        <!-- SERVICE 3 -->
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -157,8 +145,8 @@
             <p><a href="data_engineering.html">Data Engineering </a></p>
           </h4>
           <div class="text-muted">
-            <p>We design customized data engineering solutions to help you store, process, and analyze large volumes of
-              data. </p>
+            <p>Optimize data management with scalable infrastructure. We design systems for efficient data storage,
+              processing, and integration.</p>
           </div>
         </div>
         <!-- SERVICE 4 -->
@@ -171,25 +159,24 @@
             <p><a href="machine_learning.html">Machine Learning</a></p>
           </h4>
           <div class="text-muted">
-            <p>Transform your business with advanced machine learning algorithms for predictive insights and better
-              decision-making. </p>
+            <p>Predict outcomes and automate decisions with advanced models. Our solutions help you identify
+              opportunities and gain a competitive edge.</p>
           </div>
         </div>
         <!-- SERVICE 5 -->
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-business-time fa-stack-1x fa-inverse"></i>
+            <i class="fa-solid fa-skull-crossbones fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">
-            <p><a href="business_intelligence.html">Business Intelligence</a></p>
+            <p><a href="data_security.html">Data Security</a></p>
           </h4>
           <div class="text-muted">
-            <p>Optimize your business strategy with our customized business intelligence solutions for a competitive
-              edge.</p>
+            <p>Safeguard your data with robust security solutions. We ensure compliance, privacy, and resilience against
+              threats.</p>
           </div>
         </div>
-
         <!-- SERVICE 6 -->
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -200,15 +187,15 @@
             <p><a href="artificial_intelligence.html">Artificial Intelligence</a></p>
           </h4>
           <div class="text-muted">
-            <p>Unlock the power of AI to automate processes, improve efficiency, and gain deeper insights into your
-              business data.</p>
+            <p>Automate and optimize operations with AI. We develop solutions that enhance decision-making and extract
+              deeper insights to drive your business forward.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- End Services -->
-  <!-- Seccion de mensaje e imagen scroll      -->
+  <!-- Seccion de mensaje e imagen scroll -->
   <!-- Quote section -->
   <section class="section-background section-quote background-overlay text-center">
     <div class="container">
@@ -223,10 +210,8 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">
-            <a>
-              <p>Projects</p>
+            <p>Projects</p>
           </h2>
-          </a>
           <h3 class="section-subheading text-muted">
             <p>I STAND ON A SWEET SPOT WHERE DATA & LIFE INTERSECTS</p>
           </h3>
@@ -236,9 +221,11 @@
         <!-- project 1-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#p1">
-            <img class="img-fluid project-image" src="https://datascienceplus.com/wp-content/uploads/2018/07/viz_full-490x306.png" alt="">
-            <h4 class="project-title">Relational Database Management System (RDBMS) & Analytics for Tax Services Business</h4>
-          </a>   
+            <img class="img-fluid project-image"
+              src="https://datascienceplus.com/wp-content/uploads/2018/07/viz_full-490x306.png" alt="">
+            <h4 class="project-title">(RDBMS) & Analytics for Tax Services
+              Business</h4>
+          </a>
           <div class="portfolio-caption">
             <p class="text-muted">Optimizing Tax Services with Data-Driven Solutions</p>
           </div>
@@ -247,16 +234,16 @@
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#p2">
             <img class="img-fluid project-image" src="https://scottplot.net/images/scottplot.gif" alt="">
-            <h4 class="project-title">Data Viz / Data Storytelling</h4>
+            <h4 class="project-title">The Economy in Motion: A Tale of Stock Market Volatility</h4>
           </a>
           <div class="portfolio-caption">
-            <p class="text-muted">Tableau / Power BI</p>
+            <p class="text-muted">Exploring Market Highs and Lows: How Global Events Shape Financial Trends</p>
           </div>
         </div>
         <!-- project 3-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#p3">
-            <img class="img-fluid project-image" src="assets/img/projects/projectimage3.png" alt="">
+            <img class="img-fluid project-image" src="assets/img/projects/projectimage3.webp" alt="">
             <h4 class="project-title">Cyber Attack Predictor</h4>
           </a>
           <div class="portfolio-caption">
@@ -267,11 +254,11 @@
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#p4">
             <img class="img-fluid project-image" src="assets/img/projects/projectimage4.jpg" alt="">
-            <h4 class="project-title">Gym Analytics</h4>
+            <h4 class="project-title">SmartFit: Designing the Future of the Intelligent Gym</h4>
           </a>
-            <div class="portfolio-caption">
-            <p class="text-muted">subtitle</p>
-            </div>
+          <div class="portfolio-caption">
+            <p class="text-muted">Integrating Data, Analytics, and AI to Revolutionize Fitness Experiences</p>
+          </div>
         </div>
         <!-- project 5-->
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -280,33 +267,28 @@
             <h4 class="project-title">Taxes fraud predictions</h4>
           </a>
           <div class="portfolio-caption">
-            <p class="text-muted">subtitle</p>
+            <p class="text-muted">Leveraging Data Science to Detect and Prevent Tax Fraud</p>
           </div>
         </div>
         <!-- project 6-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#p6">
             <img class="img-fluid project-image" src="assets/img/projects/projectimage6.png" alt="">
-            <h4 class="project-title">Machine Learning Predictive Models 2</h4>
+            <h4 class="project-title">Fraud Detection in E-commerce: Data-Driven Security Solutions</h4>
           </a>
           <div class="portfolio-caption">
-            <p class="text-muted">subtitle</p>
+            <p class="text-muted">Smart Algorithms for Safer Online Transactions</p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12 text-center">
-          <a class="btn btn-primary btn-xl text-uppercase" href="portfolio/portfolio.html">View full Portfolio</a>
+          <a class="btn btn-primary btn-xl text-uppercase" href="manten.html">View full Portfolio</a>
         </div>
       </div>
     </div>
   </section>
-  
   <!-- End PROJECTS -->
-  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
-  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
-  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
-  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
   <!-- PROJECTS 1 Modals -->
   <div class="portfolio-modal modal fade" id="p1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -321,16 +303,18 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Relational Database Management System (RDMS) & Analytics for Tax Services Business</h2>
+                <h2 class="text-uppercase">Relational Database Management System (RDMS) & Analytics for Tax Services
+                  Business</h2>
                 <p class="item-intro text-muted">
                   tax_services_analytics
                 </p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/projects/projectimage12.webp"
+                <img class="img-fluid d-block mx-auto"
+                  src="https://datascienceplus.com/wp-content/uploads/2018/07/viz_full-490x306.png"
                   alt="image alt text" />
                 <p>
                 <p>Data management and analytics system for a U.S. tax services business. Includes an RDBMS, exploratory
                   data analysis, predictive modeling, and complete documentation. Designed to optimize tax filing
-                  processes and improve service accuracy. 
+                  processes and improve service accuracy.
                 <p>optional info list (delete if not using):</p>
                 <ul class="list-inline">
                   <li>Date: 8/21/2024</li>
@@ -366,22 +350,16 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-
-
-                <h2 class="text-uppercase">Project Threads</h2>
-                <p class="item-intro text-muted">subtitle lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto"
-                  src="https://datascienceplus.com/wp-content/uploads/2018/07/viz_full-490x306.png"
+                <h2 class="text-uppercase">The Economy in Motion: A Tale of Stock Market Volatility</h2>
+                <p class="item-intro text-muted">Exploring Market Highs and Lows: How Global Events Shape Financial Trends</p>
+                <img class="img-fluid d-block mx-auto" src="https://scottplot.net/images/scottplot.gif"
                   alt="Shirts on a hanger" />
                 <p>
-                <p>Use this area to describe your project. <strong>Markdown</strong> supported. This entry (project1.md)
-                  uses links for the image sources. All other projects in the portfolio use local images. Both work just
-                  fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
+                <p>An interactive visualization that explores the major historical events that have impacted the stock market, allowing users to see how political decisions and global events influence financial markets.</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
+                  <li>Date: September 2024</li>
+                  <li>Client: non</li>
+                  <li>Category: Economy</li>
                 </ul>
                 </p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -410,19 +388,130 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto"
-                  src="https://machinelearningmastery.com/wp-content/uploads/2020/03/Probability-Decision-Surface-for-Logistic-Regression-on-a-Binary-Classification-Task.png"
+                <h2 class="text-uppercase">Cyber Attack Predictor</h2>
+                <p class="item-intro text-muted">Predicting Cyber Attacks with Encrypted Traffic Analysis</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/projectimage3.webp"
                   alt="Keep Exploring" />
                 <p>
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <p>A machine learning model that predicts cyber attacks by analyzing encrypted network traffic. The model detects abnormal patterns and potential threats in real-time, enabling proactive cybersecurity measures and reducing the risk of data breaches.</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
+                  <li>Date: March 2024</li>
+                  <li>Client: non</li>
+                  <li>Category: Cyber Security</li>
+                </ul>
+                </p>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!-- PROJECTS 4 Modals -->
+  <div class="portfolio-modal modal fade" id="p4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">SmartFit: Designing the Future of the Intelligent Gym</h2>
+                <p class="item-intro text-muted">Integrating Data, Analytics, and AI to Revolutionize Fitness Experiences</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/projectimage4.jpg"
+                  alt="Keep Exploring" />
+                <p>
+                <p>SmartFit is a comprehensive project focused on designing an intelligent, data-driven gym that enhances member experiences through personalized training programs, real-time performance monitoring, and predictive analytics.</p>
+                <ul class="list-inline">
+                  <li>Date: May 2024</li>
+                  <li>Client: non</li>
+                  <li>Category: Business Analytics</li>
+                </ul>
+                </p>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!-- PROJECTS 5 Modals -->
+  <div class="portfolio-modal modal fade" id="p5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">TaxGuard: Predicting Tax Fraud with Machine Learning Models</h2>
+                <p class="item-intro text-muted">Leveraging Data Science to Detect and Prevent Tax Fraud</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/projectimage5.jpg"
+                  alt="Keep Exploring" />
+                <p>
+                <p>TaxGuard is a machine learning project designed to predict and prevent tax fraud by analyzing patterns in financial and tax data. By utilizing advanced algorithms and anomaly detection techniques, the model identifies suspicious activities, flags potential fraudulent filings, and provides real-time insights for regulatory authorities.</p>
+                <ul class="list-inline">
+                  <li>Date: Julio 2024</li>
+                  <li>Client: non</li>
+                  <li>Category: Business Analytics</li>
+                </ul>
+                </p>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!-- PROJECTS 6 Modals -->
+  <div class="portfolio-modal modal fade" id="p6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Fraud Detection in E-commerce: Data-Driven Security Solutions</h2>
+                <p class="item-intro text-muted">Smart Algorithms for Safer Online Transactions</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/projectimage6.png"
+                  alt="Keep Exploring" />
+                <p>
+                <p>An advanced system leveraging machine learning to identify and prevent fraud in real-time, analyzing user patterns and transactions to ensure security on e-commerce platforms.</p>
+                <ul class="list-inline">
+                  <li>Date: Septiembre 2024</li>
+                  <li>Client: non</li>
+                  <li>Category: Data Security</li>
                 </ul>
                 </p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -437,7 +526,6 @@
     </div>
   </div>
   <!-- End PROJECTS Modals -->
-  <!-- End PROJECTS  -->
   <!-- Quote section 2 -->
   <section class="section-background section-quote2 background-overlay text-center">
     <div class="container">
@@ -445,27 +533,25 @@
     </div>
   </section>
   <!-- End Quote section 2 -->
+
   <!-- BLOG -->
   <section class="bg-light page-section" id="blog">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">
-            <a>
-              <p>BLOG</p>
-            </a>  
+            <p>BLOG</p>
           </h2>
           <h3 class="section-subheading text-muted">
-            <p>A few stories about Machine Learning, Artificial Intelligence, Deep Learning, Big Data, Data Analytics,
-              Statistics, Python, R, SQL, Data Viz, Data Mining and Business Intelligence. More or less linked with our
-              world, always related to DATA</p>
+            Stories about Machine Learning, AI, Big Data, Data Viz, Python, R, and Business Intelligence. Always related
+            to DATA.
           </h3>
         </div>
       </div>
       <div class="row">
         <!-- blog 1 -->
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#b1">
+          <a class="portfolio-link" href="https://github.com/aronds/R-Data-Science-Functions" target="_blank">
             <img class="img-fluid blog-image" src="assets/img/blog/blogimage1.jpg" alt="Imagen del artículo 1">
             <h4 class="project-title">R Alchemy</h4>
           </a>
@@ -475,117 +561,116 @@
         </div>
         <!-- blog 2 -->
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#b2">
+          <a class="portfolio-link" href="manten.html" target="_blank">
             <img class="img-fluid blog-image" src="assets/img/blog/blogimage2.jpg" alt="Imagen del artículo 2">
             <h4 class="project-title">Supercharged EDA: Exploratory Data Analysis on Steroids</h4>
           </a>
           <div class="portfolio-caption">
-            <p class="text-muted">Mastering the Art of Exploratory Data Analysis & Uncover Hidden Insights Like a Pro</p>
+            <p class="text-muted">Mastering the Art of Exploratory Data Analysis & Uncover Hidden Insights Like a Pro
+            </p>
           </div>
         </div>
         <!-- blog 3 -->
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#b3">
+          <a class="portfolio-link" href="manten.html" target="_blank">
             <img class="img-fluid blog-image" src="assets/img/blog/blogimage3.png" alt="Imagen del artículo 3">
-            <h4 class="project-title">Advanced Data Science</h4>
+            <h4 class="project-title">Advanced Data Science Universe</h4>
           </a>
           <div class="portfolio-caption">
-            <p class="text-muted">Enhance your data science skills</p>
+            <p class="text-muted">Enhance your full-stack data science skills</p>
           </div>
         </div>
         <!-- blog 4 -->
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#b3">
-            <img class="img-fluid blog-image" src="assets/img/blog/blogimage4.jpg" alt="Imagen del artículo 3">
-            <h4 class="project-title">Advanced Data Science</h4>
+          <a class="portfolio-link" href="manten.html" target="_blank">
+            <img class="img-fluid blog-image" src="assets/img/blog/blogimage4.jpg" alt="Imagen del artículo 4">
+            <h4 class="project-title">Unlocking the Secrets of Data Science </h4>
           </a>
           <div class="portfolio-caption">
-            <p class="text-muted">Enhance your data science skills</p>
+            <p class="text-muted">Strategies for Success in a Data-Driven World</p>
           </div>
         </div>
         <!-- blog 5 -->
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#b3">
-            <img class="img-fluid blog-image" src="assets/img/blog/blogimage5.png" alt="Imagen del artículo 3">
-            <h4 class="project-title">Advanced Data Science</h4>
+          <a class="portfolio-link" href="manten.html" target="_blank">
+            <img class="img-fluid blog-image" src="assets/img/blog/blogimage5.png" alt="Imagen del artículo 5">
+            <h4 class="project-title">Mastering Data Engineering</h4>
           </a>
           <div class="portfolio-caption">
-            <p class="text-muted">Enhance your data science skills</p>
+            <p class="text-muted">Building Robust Pipelines for Tomorrow's Insights</p>
           </div>
         </div>
         <!-- blog 6 -->
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#b3">
-            <img class="img-fluid blog-image" src="assets/img/blog/blogimage6.jpg" alt="Imagen del artículo 3">
-            <h4 class="project-title">Cutting-Edge Relational Database Management System for Taxes</h4>
+          <a class="portfolio-link" href="manten.html" target="_blank">
+            <img class="img-fluid blog-image" src="assets/img/blog/blogimage6.jpg" alt="Imagen del artículo 6">
+            <h4 class="project-title">From Data to Decisions</h4>
           </a>
           <div class="portfolio-caption">
-            <p class="text-muted">Simulating Real Tax Scenarios with Synthetic Data for Optimal Solutions</p>
+            <p class="text-muted">How to Build a Data-Driven Culture in Your Organization</p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12 text-center">
-          <a class="btn btn-primary btn-xl text-uppercase" href="portfolio/blog.html">View full Blog</a>
+          <a class="btn btn-primary btn-xl text-uppercase" href="manten.html">View full Blog</a>
         </div>
       </div>
     </div>
   </section>
   <!-- End BLOG -->
+
   <!--About-Me seccion -->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
   <!-- End About-Me seccion -->
   <!-- CONTACT -->
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">
-            Contact Me
-          </h2>
+          <h2 class="section-heading text-uppercase">Contact Me</h2>
           <h3 class="section-subheading text-muted">Arom Antinao or call 301 673-5227</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" action="https://formspree.io/datascience.arom@gmail.com" method="POST">
+          <!-- Formulario con integración a Netlify Forms -->
+          <form id="contactForm" name="contact" method="POST" data-netlify="true" action="/thank-you">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="name">Name*</label>
-                  <input name="name" class="form-control" id="name" type="text" placeholder="Name*" required="required"
-                    data-validation-required-message="Please enter your name." maxlength="50">
+                  <label for="name">Name</label>
+                  <input name="name" class="form-control" id="name" type="text" placeholder="Name" required="required"
+                    maxlength="50">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <label for="email">datascience.arom@gmail.com</label>
-                  <input name="_replyto" class="form-control" id="email" type="email" placeholder="Email*"
-                    required="required" data-validation-required-message="Please enter your email address.">
+                  <label for="email">Email*</label>
+                  <input name="email" class="form-control" id="email" type="email" placeholder="Email*"
+                    required="required">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <label for="phone">301 673-5227</label>
+                  <label for="phone">Phone Number</label>
                   <input name="phone" class="form-control" id="phone" type="tel" placeholder="Phone Number"
-                    required="required" data-validation-required-message="Please enter your phone number.">
+                    required="required">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
                   <label for="message">Message*</label>
-                  <textarea name="message" class="form-control" id="message" placeholder="Message*" required="required"
-                    data-validation-required-message="Please enter a message"></textarea>
+                  <textarea name="message" class="form-control" id="message" placeholder="Message*"
+                    required="required"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
-              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
                 <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send
                   Message</button>
               </div>
-              <input type="text" name="_gotcha" style="display:none">
-              <input type="hidden" name="_next" value="#">
             </div>
           </form>
         </div>
@@ -593,16 +678,12 @@
     </div>
   </section>
   <!-- End Contact -->
-  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
-  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
-  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
-  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
   <!-- Footer -->
   <footer class="footer" id="footer" style="background-color: white">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Awesome Website 2022</span>
+          <span class="copyright">Copyright &copy; Jager | Data Analytics Studio 2024. All rights reserved.</span>
         </div>
         <!-- Social Media -->
         <div class="col-md-4">
@@ -628,7 +709,7 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="legal">Privacy Policy</a>
+              <a href="legal.html">Privacy Policy</a>
             </li>
           </ul>
         </div>
@@ -649,34 +730,33 @@
           </button>
         </div>
         <div class="modal-body">
-          <p>Are you ready to get dirty?</p>
+          <p>Are you ready?</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
-          <a href="dhd/data_hunter's_den.html" id="continueButton" class="btn btn-primary">Continue</a>
+          <a href="manten.html" id="continueButton" class="btn btn-primary">Continue</a>
         </div>
       </div>
     </div>
   </div>
-<!-- Plugin JavaScript -->
-<script src="assets/js/jquery.easing.min.js"></script>
-<!-- Contact form JavaScript -->
-<script src="assets/js/jqBootstrapValidation.js"></script>
-<script src="assets/js/contact_me.js"></script>
-<!-- Custom scripts for this template -->
-<script src="assets/js/agency.min.js"></script>
-<!-- jQuery, Popper.js, and Bootstrap JS (orden correcto y sin duplicados) -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Versión completa de jQuery -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- Plugin JavaScript para smooth scrolling -->
-<script src="assets/js/jquery.easing.min.js"></script>
-<script src="assets/js/agency.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <!-- Contact form JavaScript -->
+  <script src="assets/js/jqBootstrapValidation.js"></script>
+  <script src="assets/js/contact_me.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="assets/js/agency.min.js"></script>
+  <!-- jQuery, Popper.js, and Bootstrap JS (orden correcto y sin duplicados) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Versión completa de jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Plugin JavaScript para smooth scrolling -->
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <script src="assets/js/agency.min.js"></script>
 
-<!-- Elimina los duplicados -->
-<!-- <script src="assets/js/jquery.min.js"></script> --> <!-- Eliminado, ya incluimos jQuery -->
-<!-- <script src="assets/js/bootstrap.bundle.min.js"></script> --> <!-- Eliminado, ya incluimos Bootstrap -->
-  
+  <!-- Elimina los duplicados -->
+  <!-- <script src="assets/js/jquery.min.js"></script> --> <!-- Eliminado, ya incluimos jQuery -->
+  <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> --> <!-- Eliminado, ya incluimos Bootstrap -->
 </body>
 
 </html>

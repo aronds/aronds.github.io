@@ -28,7 +28,7 @@
 - Contador de visitas
 - Aceptar cookies, recopilacion de datos de usuarios
 - Charbot assistent
--
+- Traductor de pagina
 -
 ---
 # Bitacora
@@ -148,5 +148,56 @@ header.masthead .intro-text
 header.masthead .intro-heading p 
 header.masthead .intro-lead-in p 
 
+## 8/26/2024
+Jager | Data Analytics Studio
+Personal web page
+### Intro
+Este proyecto es la continuidad de mi anterior proyecto enfocado en la elaboracion  y produccion de mi pagina web personal. 
+Objetivos:
+1. Mostrar servicios ofrecidos, projectos desarrollados y contenido relacionado al area 
+2. Lugar de alojamiento de la sub-pagina "Data Huinter's Den"
+Por la complejidad de las funcionalidades, diseno y falta de recursos, la primera version de la pagina fue creada sobre una plantilla existente de un sitio responsive open source(licencia libre). 
+Por la antiguedad de esta version fue requerido actualizar gran cantidad del codigo css, metodos y funciones. Para ello
+eh decidido crear desde cero esta pagina para tener mas control y versatilidad.
 
+---
+### 8/27/2024
+1. Creacion del directorio, archivos principales y jerarquia.
+- index.html
+- style.css
+- s
+1. Creacion del DOM,
+2. creacion del style.css (vacio)
+3. Creacion secciones:
+- barra navegacion
+- Hero
+- services
+- projects
+- blog
+- Contact me
+4. Creacion footer / copyright
+---
+### 8/28/2024
+
+1. Se ingresan todas las secciones dentro de containers <DIV> para asegurar la organizacion y responsividad de la pagina
+2. 
+
+---
+
+## 9/9/2024
+
+1. Solucion del problema de compatibilidad con las pantallas moviles en el antiguo proyecto (original) dejando el projecto data hunter's den como proyecto secundario.
+2. tambien aparecio y se soluciono el problema de que en dispositivos moviles el video no se reproducia
+solucion: agregar a la clase video-background la propiedad de "playsinline"
+```html
+<video class="video-background" autoplay muted loop playsinline>
+  <source src="assets/img/header2.mp4" type="video/mp4">
+  Tu navegador no soporta el formato de video.
+</video>
+```
+## 9/10/2024
+1.quitamos elementos "other sites" de la barra de navegacion por problemas con compatibilidad con dispositivos moviles.
+
+## 9/23/2024
+1. modifique las secciones de @media queries para diferentes tamanos de pantalla.
 

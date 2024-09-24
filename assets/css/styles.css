@@ -28,7 +28,8 @@ header.masthead {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Asegura que el video cubra todo el contenedor sin distorsionarse */
+    object-fit: cover;
+    /* Asegura que el video cubra todo el contenedor sin distorsionarse */
     z-index: -1;
     opacity: 0.95;
 }
@@ -45,7 +46,8 @@ header.masthead {
     width: 100%;
     padding: 20px;
     text-align: center;
-    color: #fff; /* Aplicado a todo el contenido */
+    color: #fff;
+    /* Aplicado a todo el contenido */
 }
 
 /* Estilos del texto dentro del contenedor */
@@ -58,24 +60,30 @@ header.masthead {
 
 /* Encabezado dentro del texto de introducción */
 .intro-heading p {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 50px;
-    margin: 30px; /* Reducido de 80px a 30px */
-    margin-bottom: 100px; /* Incrementar el valor para subir el texto */
+    line-height: 40px;
+    margin: 20px;
+    /* Reducido de 80px a 30px */
+    margin-bottom: 20px;
+    /* Incrementar el valor para subir el texto */
     font-family: "Montserrat", sans-serif;
-    text-shadow: 2px 2px 4px rgba(245, 5, 5, 0.7); /* Podría reutilizarse */
+    text-shadow: 2px 2px 4px rgba(245, 5, 5, 0.7);
+    /* Podría reutilizarse */
 }
 
 /* Subtítulo o lead-in */
 .intro-in p {
-    font-size: 40px;
-    min-height: 50px;
-    margin: 20px 0 40px;
+    font-size: 30px;
+    min-height: 20px;
+    /* margen inferior de "welcome to my studio"*/
+    margin: 10px 10px;
+    /**/
     font-family: 'Hind', Arial, sans-serif;
     font-weight: bold;
-    color: #fff; /* Este ya puede ser heredado de .container-intro-text */
-    text-shadow: 
+    color: #fff;
+    /* Este ya puede ser heredado de .container-intro-text */
+    text-shadow:
         4px 4px 0 rgba(0, 0, 0, 0.3),
         -4px 4px 0 rgba(0, 0, 0, 0.3),
         4px -4px 0 rgba(0, 0, 0, 0.3),
@@ -86,18 +94,28 @@ header.masthead {
 .intro-logo {
     max-width: 100%;
     height: auto;
-    margin: 20px 0;
+    margin: 10px 0;
 }
+
 .btn-primary {
-    margin-top: 40px; /* Aumenta la separación del botón hacia abajo */
-    background-color: #09bd96; /* Ajusta el color de fondo del botón según tu diseño */
-    border-color: #09bd96; /* Establece el color del borde para que coincida con el fondo */
-    text-shadow: 2px 2px 4px rgba(245, 5, 5, 0.7); /* Sombra del texto: 2px a la derecha, 2px hacia abajo, 4px de difuminado, y un color rojo con transparencia */
-    color: #fff; /* Define el color del texto en blanco */
-    padding: 10px 20px; /* Establece un padding de 10px en la parte superior/inferior y 20px a los lados */
-    text-decoration: none; /* Elimina el subrayado del texto */
-    border-radius: 5px; /* Aplica bordes redondeados con un radio de 5px */
+    margin-top: 10px;
+    /* Aumenta la separación del botón hacia abajo */
+    background-color: #09bd96;
+    /* Ajusta el color de fondo del botón según tu diseño */
+    border-color: #09bd96;
+    /* Establece el color del borde para que coincida con el fondo */
+    text-shadow: 2px 2px 4px rgba(245, 5, 5, 0.7);
+    /* Sombra del texto: 2px a la derecha, 2px hacia abajo, 4px de difuminado, y un color rojo con transparencia */
+    color: #fff;
+    /* Define el color del texto en blanco */
+    padding: 10px 20px;
+    /* Establece un padding de 10px en la parte superior/inferior y 20px a los lados */
+    text-decoration: none;
+    /* Elimina el subrayado del texto */
+    border-radius: 5px;
+    /* Aplica bordes redondeados con un radio de 5px */
 }
+
 .btn {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
@@ -107,11 +125,13 @@ header.masthead {
     font-size: 18px;
     padding: 20px 40px;
 }
+
 p {
     line-height: 1.75;
     margin-bottom: 20px;
 
 }
+
 /* Estilo para los enlaces */
 a {
     color: #3498db;
@@ -137,10 +157,13 @@ h6 {
     font-weight: 700;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 /* Estilo adicional para texto general */
-h1, h2 {
+h1,
+h2 {
     color: #3498db;
 }
+
 /* Estilo para los botones */
 button {
     padding: 10px 20px;
@@ -182,12 +205,6 @@ button {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-@media (min-width: 768px) {
-    section {
-        padding: 150px 0;
-    }
 }
 
 ::-moz-selection {
@@ -249,40 +266,6 @@ img::-moz-selection {
     color: #00ffff;
 }
 
-@media (min-width: 992px) {
-    #mainNav {
-        padding-top: 25px;
-        padding-bottom: 25px;
-        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-        transition: padding-top 0.3s, padding-bottom 0.3s;
-        border: none;
-        background-color: transparent;
-    }
-
-    #mainNav .navbar-brand {
-        font-size: 1.75em;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
-    }
-
-    #mainNav .navbar-nav .nav-item .nav-link {
-        padding: 1.1em 1em !important;
-    }
-
-    #mainNav.navbar-shrink {
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: #212529;
-    }
-
-    #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
-    }
-}
-
 #scrolling-clients {
     display: flex;
     flex-wrap: nowrap;
@@ -290,56 +273,42 @@ img::-moz-selection {
     overflow-y: hidden;
 }
 
-#col-md-3 col-sm-6 {
+#col-md-3 .col-sm-6 {
     flex: 0 0 auto;
 }
 
 /* Sections background: Quote */
 .section-quote {
     background: url(../img/quote.jpg) center no-repeat fixed;
+
 }
+
 .section-quote p {
     margin-top: 0;
     font-size: 36px;
+    text-align: ce;
 }
+
 .section-quote p span {
-    color: #00ffff;
+    color: #3498db;
 }
 
 /* Sections background: Quote2 */
 .section-quote2 {
     background: url(../img/quote2.jpg) center no-repeat fixed;
+    background-size: cover;
+    /* Asegura que la imagen cubra todo el contenedor */
+    min-height: 200px;
+    /* Ajusta la altura mínima para que sea visible */
 }
+
 .section-quote2 p {
     margin-top: 0;
     font-size: 36px;
 }
+
 .section-quote2 p span {
-    color: #00ffff;
-}
-
-
-@media (min-width: 768px) {
-    header.masthead .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
-    }
-
-    header.masthead .intro-text .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-        margin-bottom: 25px;
-        font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    }
-
-    header.masthead .intro-text .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
-        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    }
+    color: #ffffff;
 }
 
 .service-heading {
@@ -347,15 +316,19 @@ img::-moz-selection {
     text-transform: none;
 }
 
+
 #portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
+        display: flex; /* Activa Flexbox */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        margin: 0 auto 15px; /* Aplica margen inferior, y el auto centrará el elemento */
 }
 
 #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
-    max-width: 400px;
+    width: 100%;   
+    max-width: 100%;
     margin: 0 auto;
     cursor: pointer;
 }
@@ -417,12 +390,6 @@ img::-moz-selection {
 
 #portfolio * {
     z-index: 2;
-}
-
-@media (min-width: 767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
 
 .portfolio-modal .modal-dialog {
@@ -626,93 +593,6 @@ img::-moz-selection {
     margin-bottom: 0;
 }
 
-@media (min-width: 768px) {
-    .timeline:before {
-        left: 50%;
-    }
-
-    .timeline>li {
-        min-height: 100px;
-        margin-bottom: 100px;
-    }
-
-    .timeline>li .timeline-panel {
-        float: left;
-        width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
-    }
-
-    .timeline>li .timeline-image {
-        left: 50%;
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        font-size: 13px;
-        line-height: 18px;
-        margin-top: 16px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
-        padding: 0 30px 20px 20px;
-        text-align: left;
-    }
-}
-
-@media (min-width: 992px) {
-    .timeline>li {
-        min-height: 150px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        font-size: 18px;
-        line-height: 26px;
-        margin-top: 30px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .timeline>li {
-        min-height: 170px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 40px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
-    }
-}
-
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -835,5 +715,140 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
     background-color: #4336fe;
 }
-
 /*# sourceMappingURL=agency.css.map */
+
+/* ======== Estilos para pantallas pequeñas (hasta 767px) ======== */
+@media (max-width: 767px) {
+    .navbar-nav .dropdown-menu {
+        display: none;
+        position: static;
+        float: none;
+        width: 100%;
+        background-color: #343a40; /* Color del menú en pantallas pequeñas */
+    }
+    .navbar-nav .dropdown.open .dropdown-menu {
+        display: block;
+    }
+    .navbar-nav .dropdown-menu .dropdown-item {
+        color: white; /* Color del texto en los items */
+        padding-left: 20px;
+    }
+    
+    header.masthead .intro-text {
+        padding-top: 100px; /* Reduce el padding superior */
+        padding-bottom: 50px; /* Reduce el padding inferior */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    header.masthead .intro-heading {
+        font-size: 20px; /* Ajusta el tamaño de la fuente */
+        line-height: 30px;
+        margin-bottom: 5px; /* Reduce el espacio entre los títulos */
+    }
+    header.masthead .intro-in {
+        font-size: 18px; /* Ajusta el tamaño de la fuente */
+        line-height: 25px;
+        margin-bottom: 5px; /* Reduce el espacio entre "Welcome to my Studio!" y el logo */
+    }
+    header.masthead .intro-logo {
+        margin-top: 5px; /* Reduce el espacio entre el logo y el texto superior */
+        margin-bottom: 5px; /* Reduce el espacio entre el logo y el botón */
+    }
+    header.masthead .btn {
+        margin-top: 5px; /* Reduce el espacio entre el logo y el botón */
+    }
+
+    /* Mejora: Considera usar 'flex-wrap: wrap;' en elementos flexibles para prevenir desbordamientos en casos de texto largo */
+    .navbar-nav {
+        flex-wrap: wrap;
+    }
+}
+
+/* ======== Estilos para pantallas medianas (768px - 991px) ======== */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    header.masthead .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    header.masthead .intro-heading {
+        font-size: 35px;
+        line-height: 35px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    header.masthead .intro-in {
+        line-height: 30px;
+        font-size: 40px;
+        font-style: italic;
+        margin-bottom: 25px;
+    }
+    header.masthead .intro-logo {
+        margin-top: 5px;
+    }
+    header.masthead .btn {
+        margin-top: 5px;
+    }
+    
+    section {
+        padding: 150px 0;
+    }
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+
+    /* Mejora: para mejorar la accesibilidad, podrías agregar un cambio de contraste al fondo cuando haya hover en los ítems */
+    .navbar-nav .nav-link:hover {
+        background-color: rgba(52, 58, 64, 0.85);
+    }
+}
+
+/* ======== Estilos para pantallas grandes (992px y más) ======== */
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+        background-color: transparent;
+    }
+
+    #mainNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important;
+    }
+
+    #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #212529;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+    }
+
+    /* Mejora: Agrega foco visual para mejorar la navegación con teclado */
+    .navbar-nav .nav-item:focus {
+        outline: 2px solid rgba(255, 255, 255, 0.75);
+    }
+}
+
+
