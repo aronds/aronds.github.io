@@ -279,14 +279,17 @@ img::-moz-selection {
 
 /* Sections background: Quote */
 .section-quote {
-    background: url(../img/quote.jpg) center no-repeat fixed;
-
+    background: url(../img/quote.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 200px; /* Ajusta según sea necesario */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
 }
-
 .section-quote p {
     margin-top: 0;
     font-size: 36px;
-    text-align: ce;
+    text-align: center;
 }
 
 .section-quote p span {
@@ -295,7 +298,7 @@ img::-moz-selection {
 
 /* Sections background: Quote2 */
 .section-quote2 {
-    background: url(../img/quote2.jpg) center no-repeat fixed;
+    background: url(../img/quote2.jpg) center no-repeat;
     background-size: cover;
     /* Asegura que la imagen cubra todo el contenedor */
     min-height: 200px;
@@ -764,6 +767,12 @@ ul.social-buttons li a:hover {
     /* Mejora: Considera usar 'flex-wrap: wrap;' en elementos flexibles para prevenir desbordamientos en casos de texto largo */
     .navbar-nav {
         flex-wrap: wrap;
+    }
+    .section-quote {
+        background-attachment: scroll; /* Cambia 'fixed' a 'scroll' para dispositivos móviles */
+    }
+    .section-quote2 {
+        background-attachment: scroll; /* Cambia 'fixed' a 'scroll' para dispositivos móviles */
     }
 }
 
