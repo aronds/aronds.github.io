@@ -279,7 +279,7 @@ img::-moz-selection {
 
 /* Sections background: Quote */
 .section-quote {
-    background: url(../img/quote.jpg) center no-repeat;
+    background: url(../img/quote.jpg) center no-repeat fixed;
     background-size: cover;
     min-height: 200px; /* Ajusta según sea necesario */
     display: flex;
@@ -298,7 +298,7 @@ img::-moz-selection {
 
 /* Sections background: Quote2 */
 .section-quote2 {
-    background: url(../img/quote2.jpg) center no-repeat;
+    background: url(../img/quote2.jpg) center no-repeat fixed;
     background-size: cover;
     /* Asegura que la imagen cubra todo el contenedor */
     min-height: 200px;
