@@ -789,7 +789,7 @@ ul.social-buttons li a:hover {
         padding-top: 20vh; /* Ajuste dinámico */
         padding-bottom: 20vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: column;   
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -800,6 +800,9 @@ ul.social-buttons li a:hover {
         line-height: 1.2;
         margin-bottom: 15px; /* Espacio adecuado para pantallas medianas */
     }
+    header.masthead .intro-logo {
+        margin-top: 2px; /* Reduce el espacio entre el logo y el texto superior */
+        margin-bottom: 2px; /* Reduce el espacio entre el logo y el botón */
 
     header.masthead .intro-in {
         font-size: 2vw;
