@@ -736,41 +736,48 @@ ul.social-buttons li a:hover {
         color: white; /* Color del texto en los items */
         padding-left: 20px;
     }
-    
+
     header.masthead .intro-text {
-        padding-top: 100px; /* Reduce el padding superior */
-        padding-bottom: 50px; /* Reduce el padding inferior */
+        padding-top: 10vh; /* Usamos vh para un ajuste dinámico respecto a la altura de la pantalla */
+        padding-bottom: 5vh; /* Reduce el padding inferior en función del tamaño de la pantalla */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
+
     header.masthead .intro-heading {
-        font-size: 20px; /* Ajusta el tamaño de la fuente */
-        line-height: 30px;
+        font-size: 5vw; /* Ajuste dinámico según el tamaño de la pantalla */
+        line-height: 1.2;
         margin-bottom: 5px; /* Reduce el espacio entre los títulos */
     }
+
     header.masthead .intro-in {
-        font-size: 18px; /* Ajusta el tamaño de la fuente */
-        line-height: 25px;
+        font-size: 4.5vw; /* Ajuste dinámico según el tamaño de la pantalla */
+        line-height: 1.2;
         margin-bottom: 5px; /* Reduce el espacio entre "Welcome to my Studio!" y el logo */
     }
+
     header.masthead .intro-logo {
         margin-top: 5px; /* Reduce el espacio entre el logo y el texto superior */
         margin-bottom: 5px; /* Reduce el espacio entre el logo y el botón */
     }
+
     header.masthead .btn {
+        font-size: 3vw; /* Ajuste dinámico para los botones */
         margin-top: 5px; /* Reduce el espacio entre el logo y el botón */
     }
 
-    /* Mejora: Considera usar 'flex-wrap: wrap;' en elementos flexibles para prevenir desbordamientos en casos de texto largo */
+    /* Mejora: Usar 'flex-wrap: wrap;' en elementos flexibles para prevenir desbordamientos */
     .navbar-nav {
         flex-wrap: wrap;
     }
+
     .section-quote {
         background-attachment: scroll; /* Cambia 'fixed' a 'scroll' para dispositivos móviles */
     }
+
     .section-quote2 {
         background-attachment: scroll; /* Cambia 'fixed' a 'scroll' para dispositivos móviles */
     }
@@ -778,43 +785,47 @@ ul.social-buttons li a:hover {
 
 /* ======== Estilos para pantallas medianas (768px - 991px) ======== */
 @media (min-width: 768px) and (max-width: 991px) {
-
     header.masthead .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 20vh; /* Ajuste dinámico */
+        padding-bottom: 20vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
+
     header.masthead .intro-heading {
-        font-size: 35px;
-        line-height: 35px;
-        font-weight: 700;
-        margin-bottom: 50px;
+        font-size: 6cap;
+        line-height: 1.2;
+        margin-bottom: 15px; /* Espacio adecuado para pantallas medianas */
     }
+
     header.masthead .intro-in {
-        line-height: 30px;
-        font-size: 40px;
-        font-style: italic;
-        margin-bottom: 25px;
+        font-size: 2vw;
+        line-height: 1.2;
+        margin-bottom: 10px;
     }
+
     header.masthead .intro-logo {
         margin-top: 5px;
+        margin-bottom: 10px;
     }
+
     header.masthead .btn {
+        font-size: 4vw;
         margin-top: 5px;
     }
-    
+
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
+
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
 
-    /* Mejora: para mejorar la accesibilidad, podrías agregar un cambio de contraste al fondo cuando haya hover en los ítems */
+    /* Mejora: Cambio de contraste en hover para mejorar la accesibilidad */
     .navbar-nav .nav-link:hover {
         background-color: rgba(52, 58, 64, 0.85);
     }
@@ -859,5 +870,6 @@ ul.social-buttons li a:hover {
         outline: 2px solid rgba(255, 255, 255, 0.75);
     }
 }
+
 
 

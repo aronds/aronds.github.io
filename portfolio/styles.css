@@ -1,83 +1,106 @@
-/* Estilos para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif; /* Fuente del texto */
-    margin: 0; /* Elimina el margen exterior */
-    padding: 0; /* Elimina el relleno exterior */
-    height: 100vh; /* Altura del cuerpo igual al 100% de la altura de la ventana gráfica */
-    background-color: #f2f2f2; /* Color de fondo */
-    display: flex; /* Flexbox para centrar contenido vertical y horizontalmente */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: column;
+    align-items: center;
 }
 
-/* Estilos para el contenedor principal */
 .container {
-    display: flex; /* Flexbox para centrar contenido vertical y horizontalmente */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 90%; /* Altura del contenedor igual al 90% de la altura de la ventana gráfica */
-    width: 100%; /* Ancho del contenedor igual al 100% del viewport */
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+
+.project img {
+    width: 100%; /* Se ajusta al ancho del contenedor */
+    max-height: 200px; /* Altura máxima */
+    object-fit: cover; /* Asegura que la imagen se recorte si es necesario */
+    display: block;
 }
 
 /* Estilos para el sidebar */
 .sidebar {
-    width: 30%; /* Ancho del sidebar */
-    min-width: 200px; /* Ancho mínimo del sidebar */
-    max-width: 400px; /* Ancho máximo del sidebar */
-    background-color: #c3c3c3; /* Color de fondo */
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+    background-color: #c3c3c3;
 }
 
 .sidebar ul {
-    list-style-type: none; /* Elimina la viñeta de la lista */
-    padding: 0; /* Elimina el relleno de la lista */
+    list-style-type: none;
+    padding: 0;
 }
 
 .sidebar ul li {
-    padding: 10px; /* Espaciado entre elementos de la lista */
+    padding: 10px;
 }
 
 .sidebar ul li a {
-    text-decoration: none; /* Quita la decoración de enlace */
-    color: #333; /* Color del texto */
+    text-decoration: none;
+    color: #333;
 }
 
 /* Estilos para el contenido */
 .content {
-    width: 70%; /* Ancho del contenido */
-    height: 100%; /* Altura del contenido igual al 100% del contenedor */
-    padding: 20px; /* Relleno interno */
-    box-sizing: border-box; /* Incluye el relleno en el tamaño total */
-    overflow: auto; /* Agrega barra de desplazamiento si el contenido es más grande que el contenedor */
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
 }
 
 .content-section {
-    height: 100%; /* Altura de la sección igual al 100% del contenedor */
+    height: 100%;
 }
 
-/* Estilos para el objeto incrustado */
 object {
-    width: 100%; /* Ancho del objeto al 100% del contenedor */
-    height: 100%; /* Altura del objeto al 100% del contenedor */
-    border: none; /* Quita el borde del objeto */
+    width: 100%;
+    height: 100%;
+    border: none;
 }
-
 
 /* Estilos para la grilla de portafolio */
 .portfolio {
-    display: grid; /* Utiliza una grilla para el diseño */
-    grid-template-columns: repeat(3, 1fr); /* Define 3 columnas de ancho igual */
-    grid-gap: 20px; /* Espacio entre elementos de la grilla */
-    max-width: 100%; /* Ancho máximo del portafolio */
-    width: 100%; /* Ancho completo */
-    padding: 20px; /* Relleno interno */
-    margin: 50px auto; /* Centra horizontalmente y agrega espacio arriba y abajo */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 100%;
+    width: 100%;
+    padding: 20px;
+    margin: 50px auto;
 }
-    
+
 .project {
-    background-color: #fff; /* Color de fondo */
-    border-radius: 10px; /* Borde redondeado */
-    padding: 20px; /* Relleno interno */
-    box-shadow: 0; /* Elimina la sombra */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra ligera */
 }
 
+/* Media queries para dispositivos pequeños */
+@media (max-width: 768px) {
+    .portfolio {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas más pequeñas */
+    }
 
+    .project img {
+        max-height: 150px; /* Altura más pequeña para pantallas móviles */
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio {
+        grid-template-columns: 1fr; /* Una columna en pantallas muy pequeñas */
+    }
+
+    .project img {
+        max-height: 100px; /* Ajusta el tamaño de las imágenes en móviles pequeños */
+    }
+}
